@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #box{
+            height:250px;
+            width:250px;
+            margin:50px auto;
+        }
+        #box img{
+            animation:rotator 1s infinite linear;
+        }
+        @keyframes rotator {
+            0%{
+                transform:rotate (0deg);
+            }
+            100%{
+                transform:rotate(360deg)
+            }
+
+        }
+    
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <img src="images/ghost.webp" alt="">
+
+    </div>
+</body>
+</html>
